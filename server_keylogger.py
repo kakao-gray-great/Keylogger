@@ -31,4 +31,6 @@ def openserver(host, port):
 
 #**************************************************#
 if __name__ == "__main__":
-        openserver("192.168.0.16", 7000)
+        openserver("IP Address", 7000)
+
+        
