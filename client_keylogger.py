@@ -59,7 +59,7 @@ def test2():
 
     try:
         client = socket.socket()
-        client.connect(("IP Address", PORT))
+        client.connect(("IP Address", 7000))
         print "Connection Success"
         
         while True:
@@ -99,7 +99,7 @@ def test3():
 
         # connect ftp
         ftp = ftplib.FTP()
-        ftp.connect("IP Address", "Port")
+        ftp.connect("FTP IP Address", "FTP PORT")
         ftp.login("tester", "tester")
         ftp.cwd("./image_stroke")
 
